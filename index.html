@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  
+</head>
+
+
+<body>
+
+<header>
+  <nav>
+    <h1>MyPortfolio</h1>
+    <div class="hamburger" onclick="toggleMenu()">☰</div> <!-- hamburger -->
+    <ul class="nav-links">
+      <li onclick="showSection('home')">Home</li>
+      <li onclick="showSection('about')">About</li>
+      <li onclick="showSection('skills')">Skills</li>
+      <li onclick="showSection('projects')">Projects</li>
+      <li onclick="showSection('contact')">Contact</li>
+    </ul>
+  </nav>
+</header>
+
+
+<section id="home" class="home active">
+  <div class="container">
+    <h2>Hello, I'm  <span>Priyanga Devi</span></h2>
+    <p>A Frontend Developer who enjoys creating modern, responsive and user-friendly websites</p>
+
+    <div class="resume-actions">
+     <a href="resume.pdf" target="_blank" class="btn view-btn">
+      <i class="fa-solid fa-eye"></i>
+      View Resume
+     </a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="About">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Hi, I'm Priyanga, a Frontend Developer passionate about creating clean, responsive, and user-friendly web applications. I enjoy turning designs and ideas into real-world digital experiences using HTML, CSS, and JavaScript. I focus on writing structured code, building smooth layouts, and ensuring websites work perfectly across mobile, tablet, and desktop devices.</p><br>
+    <p>I continuously explore modern frontend technologies and best practices to improve my skills and stay updated with industry standards. I am a quick learner, detail-oriented, and highly motivated to grow as a frontend developer. I enjoy collaborating, learning from feedback, and building applications that deliver both functionality and an excellent user experience. My goal is to contribute to impactful projects while continuously improving my technical and creative abilities.</p>
+  </div>
+</section>
+<!--SKILL-->
+<section id="skills">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Git</div>
+      <div class="skill">GitHub</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECT DETAILS -->
+<section id="projects">
+  <div class="container">
+    <center><h1>Projects</h1></center>
+  </div>
+ 
+<div class="project-details">
+
+  <div class="project-item">
+    <h2>1. Smart Todo Manager</h2>
+    <p>
+      A simple and efficient todo management web application that helps users
+      add, delete, and manage daily tasks with a clean user interface.
+    </p>
+    <img src="todo.jpeg" alt="Smart Todo Manager Screenshot" class="img">
+    <div class="project-links">
+      <a href="https://github.com/priyanga2004113-coder" target="_blank">GitHub</a>
+      <a href=" https://priyanga2004113-coder.github.io/Todo-website/" target="_blank">Live</a>
+    </div>
+  </div>
+
+  <div class="project-item">
+    <h2>2. Typing Speed Calculator</h2>
+    <p>
+      A typing speed test application that calculates typing speed and accuracy
+      in real time, helping users improve their typing skills.
+    </p>
+    <img src="speed.jpeg" alt="Typing Speed Calculator Screenshot" class="img">
+    <div class="project-links">
+      <a href="https://github.com/priyanga2004113-coder" target="_blank">GitHub</a>
+      <a href="https://priyanga2004113-coder.github.io/Typing-Speed-Calculator/" target="_blank">Live</a>
+    </div>
+  </div>
+
+  <div class="project-item">
+    <h2>3. Portfolio Website</h2>
+    <p>
+      A personal responsive portfolio website showcasing my skills, projects,
+      and contact details with a modern UI and smooth interactions.
+    </p>
+    <img src="portfolio.jpeg" alt="Portfolio Screenshot" class="img">
+    <div class="project-links">
+      <a href="https://github.com/priyanga2004113-coder" target="_blank">GitHub</a>
+      <a href="#" target="_blank">Live</a>
+    </div>
+  </div>
+
+</div>
+</section>
+
+ <!--Contact-->
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+
+  <!-- EMAIL -->
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=priyanga2004113@gmail.com&su=Contact from Portfolio&body=Hi Priyanga,"
+   target="_blank"
+   class="contact-btn email-btn">
+   📧 Send Email
+</a>
+
+  <!-- LINKEDIN -->
+  <a 
+    href="https://www.linkedin.com/in/priyanga-devi-474a65357"
+    target="_blank"
+    class="contact-btn linkedin-btn">
+    🔗 LinkedIn
+  </a>
+
+  <!-- GITHUB -->
+  <a 
+    href="https://github.com/priyanga2004113-coder"
+    target="_blank"
+    class="contact-btn github-btn">
+    🐙 GitHub
+  </a>
+</section>
+
+<footer>
+  <p>LinkedIn | GitHub</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
