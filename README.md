@@ -7,7 +7,7 @@ A clean and responsive personal portfolio website to showcase my skills, project
 
 ## 🔗 Live Demo
 
-👉 [https://yourusername.github.io/portfolio/](https://yourusername.github.io/portfolio/)
+👉 
 
 
 
@@ -43,15 +43,11 @@ portfolio/
 │   ├── todo.jpeg
 │   ├── speed.jpeg
 │   └── portfolio.png
-```
 
 
 
-## 📧 Contact
 
-* Email: [yourmail@gmail.com](mailto:yourmail@gmail.com)
-* LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-* GitHub: [https://github.com/yourusername](https://github.com/yourusername)
+
 
 
 
