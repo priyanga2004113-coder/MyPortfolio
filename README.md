@@ -38,11 +38,9 @@ portfolio/
 ├── script.js
 ├── resume.pdf
 ├── README.md
-│
-├── images/
-│   ├── todo.jpeg
-│   ├── speed.jpeg
-│   └── portfolio.png
+├── todo.jpeg
+├── speed.jpeg
+└── portfolio.png
 
 
 
